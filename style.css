@@ -1,0 +1,24 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 500;
+}
+p {
+  font-weight: 300;
+}
+.hero {
+  text-align: center;
+  padding: 200px 15px;
+}
+.btn-branding {
+  background-color: #6264fa;
+  color: white;
+  padding: 14px 32px;
+  font-weight: 700;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

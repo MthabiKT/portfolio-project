@@ -5,6 +5,12 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+footer .contact-box {
+  background: var(--background-color);
+  padding: 40px 80px;
+  border-radius: 10px;
+  margin: 50px;
+}
 h2 {
   font-size: 26px;
   font-weight: 500;
@@ -13,20 +19,21 @@ p {
   font-weight: 300;
   line-height: 30px;
 }
+i {
+  font-size: 30px;
+}
 img {
   border-radius: 8px;
 }
 nav {
   background-color: white;
+  color: var(--branding);
 }
 
-.about-section img {
-  width: 400px;
-}
-.hero {
-  text-align: center;
-  padding: 200px 15px;
-  background-image: url(/images/background.png);
+.background-image {
+  background-image: url(/images/background-1.png), url(/images/background-2.png);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, no-repeat;
 }
 .btn-branding {
   background-color: var(--branding);
@@ -49,6 +56,29 @@ nav {
 .btn-about:hover {
   color: var(--branding);
 }
+.bi-mouse2 {
+  font-size: 500px;
+  justify-content: space-around;
+}
+.contact-page {
+  background: url(/images/background-dots.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+.content-container {
+  margin-top: 100px;
+  padding: 35px 45px;
+}
+
+.content-container img {
+  width: 400px;
+}
+.hero {
+  text-align: center;
+  padding: 200px 15px;
+  background-image: url(/images/background.png);
+}
+
 .text-info {
   text-align: center;
 }
@@ -61,6 +91,9 @@ nav {
   padding-top: 30px;
 }
 @media (max-width: 700px) {
+  .content {
+    text-align: center;
+  }
   .project-description {
     font-weight: 500px;
     text-align: center;

@@ -75,7 +75,8 @@ nav {
 }
 
 .content-container img {
-  width: 400px;
+  width: 430px;
+  margin-left: 65px;
 }
 .hero {
   text-align: center;

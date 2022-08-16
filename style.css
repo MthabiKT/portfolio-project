@@ -130,7 +130,7 @@ nav {
   padding-top: 40px;
 }
 .projects .col-md-8 {
-  padding-left: 193px;
+  padding-left: 160px;
 }
 .skills-section {
   padding: 40px;
@@ -167,5 +167,18 @@ nav {
 
     width: 30px;
     opacity: 1.3;
+  }
+}
+@media (max-width: 500px) {
+  .projects img {
+    width: 110%;
+    padding-left: 65px;
+    padding-top: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .projects .col-md-8 {
+    padding-left: 80px;
+    padding-right: 135px;
   }
 }

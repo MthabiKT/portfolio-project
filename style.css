@@ -98,6 +98,9 @@ nav {
   width: 430px;
   margin-left: 65px;
 }
+.email a {
+  text-decoration: none;
+}
 .hero {
   text-align: center;
   padding: 200px 15px;
@@ -125,13 +128,7 @@ nav {
   padding-top: 30px;
   margin-right: 47px;
 }
-.projects .col-md-4 {
-  text-align: center;
-  padding-top: 40px;
-}
-.projects .col-md-8 {
-  padding-left: 160px;
-}
+
 .skills-section {
   padding: 40px;
   padding-top: 60px;
@@ -156,24 +153,24 @@ nav {
     padding: 14px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 540px) {
   img {
     margin-bottom: 0px;
   }
-}
-@media (max-with: 700px) {
-  .skill-visual {
+  .skill-visual img {
     display: grid;
-
-    width: 30px;
+    width: 25%;
     opacity: 1.3;
   }
-}
-@media (max-width: 500px) {
-  .projects img {
-    width: 110%;
-    padding-left: 65px;
-    padding-top: 30px;
+  .footer-right {
+    margin-top: 30px;
+  }
+  .source-code {
+    padding-top: 40px;
+    text-align: center;
+  }
+  footer .container {
+    padding-bottom: 10px;
   }
 }
 @media (max-width: 500px) {

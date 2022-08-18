@@ -5,6 +5,11 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+.card:hover {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  transform: scale(1.04);
+}
 footer .bg {
   background: var(--background-color);
 }

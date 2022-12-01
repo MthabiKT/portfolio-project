@@ -60,6 +60,7 @@ nav {
   background-size: cover;
   background-position: center;
 }
+
 .btn-branding {
   background-color: var(--branding);
   color: white;
@@ -98,21 +99,31 @@ nav {
   margin-top: 100px;
   padding: 35px 45px;
 }
-
 .content-container img {
   width: 430px;
   margin-left: 65px;
+}
+.container-fluid {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .email a {
   text-decoration: none;
 }
 .hero {
   text-align: center;
-  padding: 200px 15px;
-  background-image: url(/images/background.png);
+  padding: 200px 0px 0px;
+  background-size: cover;
+  background-image: url("images/Cover\ page.png");
 }
-
-.text-info {
+.banner {
+  background-image: url("images/clouds.png");
+  background-position: bottom;
+  padding: 100px;
+  margin-top: 95px;
+  margin-bottom: 75px;
+}
+xt-info {
   text-align: center;
 }
 .sub-title {

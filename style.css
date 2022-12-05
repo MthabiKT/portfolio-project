@@ -2,55 +2,20 @@
   --branding: #6264fa;
   --background-color: #e3ecff;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 body {
   font-family: "Montserrat", sans-serif;
 }
-.card:hover {
-  transition: all 0.3s ease;
-  cursor: pointer;
-  transform: scale(1.04);
+.banner {
+  background-image: url("images/clouds.png");
+  background-position: bottom;
+  padding: 100px;
+  margin-top: 95px;
+  margin-bottom: 75px;
 }
-footer .bg {
-  background: var(--background-color);
-}
-footer .contact-box {
-  background: var(--background-color);
-  padding: 40px 80px;
-  border-radius: 10px;
-  margin: 50px;
-}
-footer .container {
-  background: var(--background-color);
-  padding: 100px 15px;
-  justify-content: space-between;
-  align-items: center;
-}
-footer p {
-  margin-bottom: 1px;
-}
-.footer-left a {
-  font-size: 25px;
-  text-decoration: none;
-}
-h2 {
-  font-size: 26px;
-  font-weight: 500;
-}
-p {
-  font-weight: 300;
-  line-height: 30px;
-}
-i {
-  font-size: 30px;
-}
-img {
-  border-radius: 8px;
-}
-nav {
-  background-color: white;
-  color: var(--branding);
-}
-
 .background-image {
   background: linear-gradient(
     rgba(255, 255, 255, 0.95),
@@ -60,7 +25,6 @@ nav {
   background-size: cover;
   background-position: center;
 }
-
 .btn-branding {
   background-color: var(--branding);
   color: white;
@@ -79,12 +43,18 @@ nav {
 .btn-about {
   text-decoration: underline;
 }
-.btn-about:hover {
+.btn-about,
+.btn-launch-outline :hover {
   color: var(--branding);
 }
 .bi-mouse2 {
   font-size: 500px;
   justify-content: space-around;
+}
+.card:hover {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  transform: scale(1.04);
 }
 .contact-list .nav-links {
   text-decoration: none;
@@ -110,25 +80,32 @@ nav {
 .email a {
   text-decoration: none;
 }
+h2 {
+  font-size: 26px;
+  font-weight: 500;
+}
 .hero {
   text-align: center;
   padding: 200px 0px 0px;
   background-size: cover;
   background-image: url("images/Cover\ page.png");
 }
-.banner {
-  background-image: url("images/clouds.png");
-  background-position: bottom;
-  padding: 100px;
-  margin-top: 95px;
-  margin-bottom: 75px;
+i {
+  font-size: 30px;
 }
-xt-info {
+img {
+  border-radius: 8px;
+}
+.xt-info {
   text-align: center;
 }
 .sub-title {
   font-weight: 600;
   font-size: 30px;
+}
+nav {
+  background-color: white;
+  color: var(--branding);
 }
 .navbar {
   transition: all 0.5s ease;
@@ -139,12 +116,37 @@ xt-info {
   box-shadow: 0px 3px 10px 0px rgb(63 58 100 / 8%);
   padding: 0;
 }
+p {
+  font-weight: 300;
+  line-height: 30px;
+}
 .project-description {
   padding: 8px;
   padding-top: 30px;
   margin-right: 47px;
 }
-
+footer .bg {
+  background: var(--background-color);
+}
+footer .contact-box {
+  background: var(--background-color);
+  padding: 40px 80px;
+  border-radius: 10px;
+  margin: 50px;
+}
+footer .container {
+  background: var(--background-color);
+  padding: 100px 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+footer p {
+  margin-bottom: 1px;
+}
+.footer-left a {
+  font-size: 25px;
+  text-decoration: none;
+}
 .skills-section {
   padding: 40px;
   padding-top: 60px;
@@ -158,6 +160,7 @@ xt-info {
   display: block;
   margin: auto;
 }
+
 @media (max-width: 700px) {
   .content {
     text-align: center;

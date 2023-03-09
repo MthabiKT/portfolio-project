@@ -13,7 +13,7 @@ body {
   background-image: url("images/clouds.png");
   background-position: bottom;
   padding: 100px;
-  margin-top: 95px;
+  margin-top: 50px;
   margin-bottom: 75px;
 }
 .background-image {
@@ -88,7 +88,6 @@ h2 {
   text-align: center;
   padding: 200px 0px 0px;
   background-size: cover;
-  background-image: url("images/Cover\ page.png");
 }
 i {
   font-size: 30px;
